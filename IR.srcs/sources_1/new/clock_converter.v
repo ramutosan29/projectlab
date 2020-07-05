@@ -4,7 +4,7 @@ module clock_converter(
 input clk,
 output new_clk
     );
-    reg [10:0] counter = 0;
+    reg [9:0] counter = 0;
     reg clk_out = 0;
 
     always @(posedge clk)
