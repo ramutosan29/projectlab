@@ -24,7 +24,7 @@ input pulse,
     
     inverter UUT4(.neg_pulse(spulse2), .pos_pulse(pos_pulse));
     
-    IRsensor UUT5(.clk(newclk), .pulse(pos_pulse), .state(state));
+    IRsensor UUT5(.clk(clk), .pulse(pos_pulse), .state(state));//
     
     state UUT6(.state(state), .bit(bit), .clk(newclk));
     seven_seg_disp UUT7(.clkl(clk), .bit(bit), .a(a), .b(b), .c(c), .d(d), .e(e), .f(f), .g(g), .dp(dp), .an(an));

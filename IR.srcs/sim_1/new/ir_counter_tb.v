@@ -17,7 +17,7 @@ clk = ~clk;
 initial
 begin
 #10 pulse =0;
-#500 pulse =1;
+#1800 pulse =1;
 #10 pulse =0;
 #350 pulse =1;
 #10 pulse =0;
@@ -45,7 +45,7 @@ begin
 
 
 #800 pulse =0;
-#500 pulse =1;
+#800 pulse =1;
 #10 pulse =0;
 #350 pulse =1;
 #10 pulse =0;

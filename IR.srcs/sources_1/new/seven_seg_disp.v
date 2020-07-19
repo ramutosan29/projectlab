@@ -10,7 +10,7 @@ input wire clkl,
  output wire [3:0] an   // the 4 bit enable signal
  );
 
-localparam N = 18;
+localparam N = 4;
 
 reg [N-1:0]count = 0; //the 18 bit counter which allows us to multiplex at 1000Hz
 
